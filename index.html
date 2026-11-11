@@ -8,7 +8,7 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique&family=Zen+Kaku+Gothic+New&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@1&family=Zen+Kaku+Gothic+New&display=swap" />
   <style>
     :root {
       --bg: #fffff8;
@@ -17,7 +17,7 @@
       --muted: #6a6a6a;
       --hover: #b5522a;
       --font-body: "Zen Kaku Gothic New", "Avenir Next", Avenir, Helvetica, Arial, sans-serif;
-      --font-heading: "Zen Kaku Gothic Antique", "Avenir Next", Avenir, Helvetica, Arial, sans-serif;
+      --font-display: "Instrument Serif", Georgia, serif;
     }
 
     * {
@@ -44,18 +44,22 @@
       padding: 24px 16px;
     }
 
-
     .soon {
-      color: var(--muted);
-      margin-bottom: 40px;
+      font-family: var(--font-display);
+      font-style: italic;
+      font-size: 34px;
+      line-height: 1.2;
+      color: #1a1a1a;
+      margin-bottom: 28px;
     }
 
     .art {
-      font-size: 15px;
+      font-size: 13px;
+      color: var(--muted);
     }
 
     .art a {
-      color: var(--text);
+      color: inherit;
       text-decoration: underline;
       text-underline-offset: 3px;
     }
